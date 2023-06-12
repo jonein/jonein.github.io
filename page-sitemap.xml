@@ -10,6 +10,15 @@
     
     
     <url>
+        <loc>http://example.com/music/</loc>
+        <lastmod>2023-06-12T13:28:46.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>http://example.com/about/</loc>
         <lastmod>2023-06-12T08:58:34.542Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -21,15 +30,6 @@
     <url>
         <loc>http://example.com/movies/</loc>
         <lastmod>2023-06-12T08:58:00.219Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://example.com/music/</loc>
-        <lastmod>2023-06-12T08:57:46.794Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

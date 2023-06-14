@@ -10,8 +10,8 @@
     
     
     <url>
-        <loc>http://example.com/pen/</loc>
-        <lastmod>2023-06-13T08:59:17.625Z</lastmod>
+        <loc>http://example.com/link/</loc>
+        <lastmod>2023-06-14T05:19:11.280Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,7 +20,16 @@
     
     <url>
         <loc>http://example.com/browser/</loc>
-        <lastmod>2023-06-13T08:58:59.071Z</lastmod>
+        <lastmod>2023-06-14T02:31:30.615Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://example.com/pen/</loc>
+        <lastmod>2023-06-13T08:59:17.625Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -66,15 +75,6 @@
     <url>
         <loc>http://example.com/tags/</loc>
         <lastmod>2023-06-05T06:01:52.853Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://example.com/link/</loc>
-        <lastmod>2023-06-05T05:29:56.221Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

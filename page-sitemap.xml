@@ -10,8 +10,17 @@
     
     
     <url>
-        <loc>http://example.com/browser/</loc>
-        <lastmod>2023-06-14T09:32:29.599Z</lastmod>
+        <loc>http://example.com/site/</loc>
+        <lastmod>2023-06-15T12:44:09.042Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://example.com/collect/</loc>
+        <lastmod>2023-06-15T11:11:48.374Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

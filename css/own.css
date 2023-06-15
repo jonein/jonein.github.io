@@ -1,0 +1,46 @@
+  /* 背景设置 */
+#web_bg {
+    /* 背景图像的地址（url括号里）  */
+   /* background: url(https://s2.loli.net/2023/06/05/YLbOGd2gaSr1cj7.jpg); */
+    /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+  }
+#web_bg {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 92, 54, 0.1) 0,
+    rgba(167, 86, 70, 0.1) 15%,
+    rgba(124, 56, 75, 0.1) 30%,
+    rgba(98, 44, 107, 0.1) 44%,
+    rgba(39, 63, 110, 0.1) 58%,
+    rgba(27, 91, 100, 0.1) 72%,
+    rgba(41, 148, 134, 0.1) 86%,
+    rgba(26, 51, 33, 0.1) 100%
+  );
+}  
+
+  /* 页脚透明 */
+/*#footer{
+  background: transparent!important;
+}
+*/
+/* 顶部图片透明 */
+/* #page-header{
+  background: transparent!important; 
+}*/
+#footer {
+  background: var(--icat-footer-background);
+}
+
+#footer #footer-wrap {
+  color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+  color: var(--font-color)
+}
+
+/* 页脚透明 */
+

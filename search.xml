@@ -5,6 +5,31 @@
     
     <entry>
       <title>搭建个人博客</title>
+      <link href="/posts/23942/"/>
+      <url>/posts/23942/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="使用Anaconda创建python虚拟环境"><a href="#使用Anaconda创建python虚拟环境" class="headerlink" title="使用Anaconda创建python虚拟环境"></a>使用Anaconda创建python虚拟环境</h1><p>创建虚拟环境的好处在于，对不同的项目可以分开管理，对不同的环境可以安装不同版本的包，当一个项目出现问题时可以快速删除此项目所在的虚拟环境而不影响其他项目。</p><h2 id="创建虚拟环境"><a href="#创建虚拟环境" class="headerlink" title="创建虚拟环境"></a>创建虚拟环境</h2><ul><li>需要安装Anaconda</li><li>cmd打开终端输入 <code>python </code>或 <code>python --version</code> 查看安装的python版本，ctrl+z退出</li><li>创建虚拟环境：<code>conda create -n xxx python=x.x </code>或者 <code>conda create -n xxx </code>如 <code>conda create -n GUI python=3.9.12</code></li></ul><h2 id="激活关闭删除"><a href="#激活关闭删除" class="headerlink" title="激活关闭删除"></a>激活关闭删除</h2><ul><li>win下激活虚拟环境 <code>conda activate xxx</code></li><li>win下关闭虚拟环境 <code>conda deactivate xxx</code></li><li>删除虚拟环境 <code>conda remove -n xxx --all</code></li></ul><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><ul><li>查看当前存在哪些虚拟环境 <code>conda env list</code></li><li>显示虚拟环境安装位置 <code>conda info --envs</code> </li><li>显示pip安装的版本 <code>pip list</code></li><li>查看conda版本 <code>conda --version</code></li></ul><h2 id="为虚拟环境安装包"><a href="#为虚拟环境安装包" class="headerlink" title="为虚拟环境安装包"></a>为虚拟环境安装包</h2><h3 id="如果激活了虚拟环境"><a href="#如果激活了虚拟环境" class="headerlink" title="如果激活了虚拟环境"></a>如果激活了虚拟环境</h3><ul><li>输入 <code>pip install xxx</code> 或 <code>conda install xxx</code> 就可以安装</li><li>如 <code>conda install numpy</code></li></ul><h3 id="没有激活虚拟环境"><a href="#没有激活虚拟环境" class="headerlink" title="没有激活虚拟环境"></a>没有激活虚拟环境</h3><ul><li>输入 <code>conda install -n your_env_name [package]</code> </li><li>如 <code>conda install -n GUI numpy </code></li></ul><h2 id="VSCode切换不同的环境"><a href="#VSCode切换不同的环境" class="headerlink" title="VSCode切换不同的环境"></a>VSCode切换不同的环境</h2><ul><li>右下角进行切换，或者<code>ctrl+shift+p</code></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建个人博客</title>
       <link href="/posts/23941/"/>
       <url>/posts/23941/</url>
       

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>VScode使用pyqt5</title>
+      <link href="/posts/44576/"/>
+      <url>/posts/44576/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="在VScode使用pyqt5"><a href="#在VScode使用pyqt5" class="headerlink" title="在VScode使用pyqt5"></a>在VScode使用pyqt5</h1><p>PyQt5所支持的python版本是从3.5开始的，因此安装的Python3版本必须大于3.5。</p><h2 id="选择虚拟环境"><a href="#选择虚拟环境" class="headerlink" title="选择虚拟环境"></a>选择虚拟环境</h2><ul><li>通过cmd进入终端，<code>conda env list</code>查看当前存在的虚拟环境，选择自己需要的虚拟环境，<code>conda activate xxx</code>进行激活。</li><li>安装组件：<code>pip install pyqt5-tools</code></li></ul><h2 id="vscode配置"><a href="#vscode配置" class="headerlink" title="vscode配置"></a>vscode配置</h2><ul><li>安装pyqt integration插件，打开此插件设置，配置 Pyuic:Cmd 的路径为 <code>envs\自己的虚拟环境\Scripts\pyuic5.exe</code>。配置 Qtdesigner:Path 的路径为 <code>envs\自己的虚拟环境\Lib\site-packages\qt5_applications\Qt\bin\designer.exe</code></li></ul><h2 id="使用pyqt5"><a href="#使用pyqt5" class="headerlink" title="使用pyqt5"></a>使用pyqt5</h2><ul><li>在vscode资源管理器右键，点击PYQT new form 出现 qtdesigner 界面，进行编辑。</li><li>或者在 <code>envs\自己的虚拟环境\Lib\site-packages\qt5_applications\Qt\bin</code>中打开designer.exe软件进行编辑。</li><li>在qt designer中绘制的界面可以转换成python，然后在主程序进行调用，也可以以动态ui的方式进行调用。有两种转换方式，可以在vscode中右键.ui文件，选择PYQT:Compile Form就自动转换成.py文件；也可以在ui文件所在位置cmd，终端输入<code>pyui5 -o 目标文件名.py   源文件名.ui</code> 如<code>pyuic5 -o destination.py source.ui</code>进行转换。</li></ul><h2 id="使用pyinstaller打包成exe文件"><a href="#使用pyinstaller打包成exe文件" class="headerlink" title="使用pyinstaller打包成exe文件"></a>使用pyinstaller打包成exe文件</h2><p>对于编写的程序可以以打包成exe的方式打包所需要的环境和依赖的库，也可以打包动态ui文件，以便在其他电脑方便使用，缺点是打包的文件比较大。</p><ul><li>在需要的虚拟环境中安装库 <code>pip install pyinstaller</code></li><li>在主程序所在的目录下，cmd使用 <code>pyinstaller xxx.py </code>进行打包。</li><li>打包成单一exe文件 <code>pyinstaller -F xxx.py</code> ;-F 即 –onefile</li><li>默认打包成多个文件 <code>pyinstaller xxx.py</code> 或 <code>pyinstaller -D xxx.py</code>  -D 即 –onedir</li><li>执行exe时去除黑框 <code>pyinstaller -W xxx.py</code> 或者 <code>pyinstaller xxx.py --noconsole</code> 只对windows有效。</li><li>给exe添加图标 <code>pyinstaller -F -W xxx.py -i xx.ico</code> 需要ico格式，不能使用pnp等格式。</li></ul><p>对于打包多文件打包成功后在程序目录下会出现build和dist两个文件夹，build文件夹可以删除，找到dist文件夹下xxx.exe文件双击运行，对于打包单文件，会出现一个xxx.exe文件，运行即可。</p><ul><li>对于我的程序在打包时发现xgboost无法被打包进去，导致exe文件不能正常运行，需要找到电脑安装的xgboost库，将库粘贴复制到exe所在的文件里面。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pyqt5 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python创建虚拟环境</title>
       <link href="/posts/23942/"/>
       <url>/posts/23942/</url>

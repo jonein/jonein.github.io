@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://example.com/posts/44576/</loc>
+        <lastmod>2023-07-20T08:12:58.769Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://example.com/posts/23942/</loc>
         <lastmod>2023-07-03T09:23:36.390Z</lastmod>
         <changefreq>weekly</changefreq>

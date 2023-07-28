@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>一次装机记录</title>
+      <link href="/posts/30044/"/>
+      <url>/posts/30044/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="电脑配置"><a href="#电脑配置" class="headerlink" title="电脑配置"></a>电脑配置</h2><p>装机时间为2022.11.11</p><ul><li>cpu     i3-12100(710 pdd)       </li><li>主板    精粤h610itx(415 jd)      </li><li>散热    is40 80 jd</li><li>内存    酷兽8*2 3200(269 jd)</li><li>硬盘    rc20 1t (pdd 528 pdd) </li><li>电源    长城 TF600sfx 418 pdd   </li><li>网卡    ax210  76 pdd</li><li>显卡    网驰1660s</li><li>机箱    酷鱼t60(7.53L 117 加显卡延长线 184 pdd)</li></ul><h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ol><li>当配件到齐后当天就装好了，也成功点亮，装了win10系统，但是用了两天发现电脑经常黑屏重启，换了新的内存条后问题解决。</li><li>又过了大概两个多月，电脑突然不能开机，最后发现是电源坏了，拖了一段时间店家没有解决，退钱重新买了一个，用到现在没有出现过问题。</li><li>后面发现电脑经常连不上家里的WiFi，手机能连上，更奇怪的是电脑在不断连接WiFi的时候，手机也连不上了，最后发现是买的网卡天线太短（pdd小辣椒），又隔了一堵墙导致信号太差，重新买了两个长天线，信号满格，再也没有出现过信号问题。</li><li>内存条插上默认是2400还是2600，需要到bios手动开启xmp，并且调高电压，默认电压容易出现问题。</li></ol><h3 id="不满之处"><a href="#不满之处" class="headerlink" title="不满之处"></a>不满之处</h3><ol><li>对这台电脑不满之处在于机箱太小，拆装很是麻烦。</li><li>买的矿卡虽然用着没有问题，但是风扇太吵，占用率稍微一高声音就像是在开直升机，大的离谱，换了新风扇也没有用。</li><li>itx机箱的散热是真的差劲，下压风扇的散热也是真垃圾。</li></ol><h3 id="可换之处"><a href="#可换之处" class="headerlink" title="可换之处"></a>可换之处</h3><ol><li>当时在买的时候就纠结是12100还是12400，最后觉得12100已经能够满足我的需求，所以放弃了12400，当有更高需求的时候可以更换更好的芯片。</li><li>主板也是选的丐中丐，但是却没有出现过问题，除了一开始和内存条的问题，有需求可以换更好的板子。</li><li>散热当有大空间时还是选择塔式的好，下压式的能用但不太行。</li><li>显卡还是买新的好，矿卡风险太大，虽然用到现在没有出现翻车的现象，但是风扇问题却无法解决，只能用微星小飞机来压转速，能有点效果。</li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>一个不大不小的itx小主机，能塞进书包里，满足了我上学需要的便携性和写代码需要的性能，还能偶尔玩玩小游戏，虽然它有不少缺点，但我还是很喜欢。要问为什么不买笔记本，问就是穷，问就是倔。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 装机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VScode使用pyqt5</title>
       <link href="/posts/44576/"/>
       <url>/posts/44576/</url>
@@ -33,7 +58,7 @@
       <link href="/posts/23942/"/>
       <url>/posts/23942/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="使用Anaconda创建python虚拟环境"><a href="#使用Anaconda创建python虚拟环境" class="headerlink" title="使用Anaconda创建python虚拟环境"></a>使用Anaconda创建python虚拟环境</h1><p>创建虚拟环境的好处在于，对不同的项目可以分开管理，对不同的环境可以安装不同版本的包，当一个项目出现问题时可以快速删除此项目所在的虚拟环境而不影响其他项目。</p><h2 id="创建虚拟环境"><a href="#创建虚拟环境" class="headerlink" title="创建虚拟环境"></a>创建虚拟环境</h2><ul><li>需要安装Anaconda</li><li>cmd打开终端输入 <code>python </code>或 <code>python --version</code> 查看安装的python版本，ctrl+z退出</li><li>创建虚拟环境：<code>conda create -n xxx python=x.x </code>或者 <code>conda create -n xxx </code>如 <code>conda create -n GUI python=3.9.12</code></li></ul><h2 id="激活关闭删除"><a href="#激活关闭删除" class="headerlink" title="激活关闭删除"></a>激活关闭删除</h2><ul><li>win下激活虚拟环境 <code>conda activate xxx</code></li><li>win下关闭虚拟环境 <code>conda deactivate xxx</code></li><li>删除虚拟环境 <code>conda remove -n xxx --all</code></li></ul><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><ul><li>查看当前存在哪些虚拟环境 <code>conda env list</code></li><li>显示虚拟环境安装位置 <code>conda info --envs</code> </li><li>显示pip安装的版本 <code>pip list</code></li><li>查看conda版本 <code>conda --version</code></li></ul><h2 id="为虚拟环境安装包"><a href="#为虚拟环境安装包" class="headerlink" title="为虚拟环境安装包"></a>为虚拟环境安装包</h2><h3 id="如果激活了虚拟环境"><a href="#如果激活了虚拟环境" class="headerlink" title="如果激活了虚拟环境"></a>如果激活了虚拟环境</h3><ul><li>输入 <code>pip install xxx</code> 或 <code>conda install xxx</code> 就可以安装</li><li>如 <code>conda install numpy</code></li></ul><h3 id="没有激活虚拟环境"><a href="#没有激活虚拟环境" class="headerlink" title="没有激活虚拟环境"></a>没有激活虚拟环境</h3><ul><li>输入 <code>conda install -n your_env_name [package]</code> </li><li>如 <code>conda install -n GUI numpy </code></li></ul><h2 id="VSCode切换不同的环境"><a href="#VSCode切换不同的环境" class="headerlink" title="VSCode切换不同的环境"></a>VSCode切换不同的环境</h2><ul><li>右下角进行切换，或者<code>ctrl+shift+p</code></li></ul>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="使用Anaconda创建python虚拟环境"><a href="#使用Anaconda创建python虚拟环境" class="headerlink" title="使用Anaconda创建python虚拟环境"></a>使用Anaconda创建python虚拟环境</h1><p>创建虚拟环境的好处在于，对不同的项目可以分开管理，对不同的环境可以安装不同版本的包，当一个项目出现问题时可以快速删除此项目所在的虚拟环境而不影响其他项目。</p><h2 id="创建虚拟环境"><a href="#创建虚拟环境" class="headerlink" title="创建虚拟环境"></a>创建虚拟环境</h2><ul><li>需要安装Anaconda</li><li>cmd打开终端输入 <code>python </code>或 <code>python --version</code> 查看安装的python版本，ctrl+z退出</li><li>创建虚拟环境：<code>conda create -n xxx python=x.x </code>或者 <code>conda create -n xxx </code>如 <code>conda create -n GUI python=3.9.12</code></li></ul><h2 id="激活关闭删除"><a href="#激活关闭删除" class="headerlink" title="激活关闭删除"></a>激活关闭删除</h2><ul><li>win下激活虚拟环境 <code>conda activate xxx</code></li><li>win下关闭虚拟环境 <code>conda deactivate xxx</code></li><li>删除虚拟环境 <code>conda remove -n xxx --all</code></li></ul><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><ul><li>查看当前存在哪些虚拟环境 <code>conda env list</code></li><li>显示虚拟环境安装位置 <code>conda info --envs</code> </li><li>显示pip安装的版本 <code>pip list</code></li><li>查看conda版本 <code>conda --version</code></li></ul><h2 id="为虚拟环境安装包"><a href="#为虚拟环境安装包" class="headerlink" title="为虚拟环境安装包"></a>为虚拟环境安装包</h2><h3 id="如果激活了虚拟环境"><a href="#如果激活了虚拟环境" class="headerlink" title="如果激活了虚拟环境"></a>如果激活了虚拟环境</h3><ul><li>输入 <code>pip install xxx</code> 或 <code>conda install xxx</code> 就可以安装</li><li>如 <code>conda install numpy</code></li></ul><h3 id="没有激活虚拟环境"><a href="#没有激活虚拟环境" class="headerlink" title="没有激活虚拟环境"></a>没有激活虚拟环境</h3><ul><li>输入 <code>conda install -n your_env_name [package]</code> </li><li>如 <code>conda install -n GUI numpy </code></li></ul><h2 id="VSCode切换不同的环境"><a href="#VSCode切换不同的环境" class="headerlink" title="VSCode切换不同的环境"></a>VSCode切换不同的环境</h2><ul><li>右下角进行切换，或者<code>ctrl+shift+p</code></li></ul><h1 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h1><p>当为环境安装一些包的时候会发现速度很慢，甚至无法连接，因此可以换成国内的源，加快下载速度。<br>常用国内源：</p><ol><li>清华大学源：<a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></li><li>豆瓣源 ：<a href="http://pypi.douban.com/simple/">http://pypi.douban.com/simple/</a></li><li>腾讯源：<a href="http://mirrors.cloud.tencent.com/pypi/simple">http://mirrors.cloud.tencent.com/pypi/simple</a></li><li>阿里源：<a href="https://mirrors.aliyun.com/pypi">https://mirrors.aliyun.com/pypi</a></li></ol><p>换源示例：</p><ul><li><code>pip install  pandas==1.1.5 -i http://pypi.douban.com/simple/</code><br>当出现错误 not a trusted or secure host 时候，使用下面的方法，把其放入信任列表。</li><li><code>pip install  pandas==1.1.5 -i http://pypi.douban.com/simple/  --trusted-host pypi.douban.com</code></li></ul>]]></content>
       
       
       <categories>
